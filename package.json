@@ -19,6 +19,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@auth0/auth0-spa-js": "^2.0.4"
+		"@auth0/auth0-spa-js": "^1.19.2",
 	}
 }
