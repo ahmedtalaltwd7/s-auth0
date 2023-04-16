@@ -19,7 +19,11 @@
 	},
 	"type": "module",
 	"dependencies": {
+<<<<<<< HEAD
 		"@auth0/auth0-spa-js": "^1.19.2",
 		"@sveltejs/adapter-netlify": "^2.0.6"
+=======
+		"@auth0/auth0-spa-js": "^1.19.2"
+>>>>>>> 144b1e8781790ce745ab51c48a3dc598e43e3e03
 	}
 }
