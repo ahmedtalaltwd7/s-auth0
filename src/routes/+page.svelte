@@ -14,6 +14,8 @@
   
       isAuthenticated.set(await auth0Client.isAuthenticated());
       user.set(await auth0Client.getUser());
+
+    //  console.log(auth0Client.getUser())
     });
   
     function login() {

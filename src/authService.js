@@ -1,4 +1,4 @@
-import {createAuth0Client} from '@auth0/auth0-spa-js';
+import createAuth0Client from '@auth0/auth0-spa-js';
 import { user, isAuthenticated, popupOpen } from './store.js';
 import config from './auth_config.js';
 // @ts-ignore
@@ -6,7 +6,6 @@ async function createClient() {
 	// @ts-ignore
 	let auth0Client = await createAuth0Client({
 		domain: config.domain,
-		// @ts-ignore
 		client_id: config.clientId
 	});
 
