@@ -15,13 +15,20 @@
       isAuthenticated.set(await auth0Client.isAuthenticated());
       user.set(await auth0Client.getUser());
 
-    //  console.log(auth0Client.getUser())
+   let uu= await auth0Client.getUser(auth.userinfo)
+   console.log(uu.email)
     });
   
     function login() {
       auth.loginWithPopup(auth0Client);
+
+
+      
     }
-  
+ 
+
+
+
     function logout() {
       auth.logout(auth0Client);
     }
