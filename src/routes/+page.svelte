@@ -66,6 +66,10 @@
     }
   </style>
   
+fff
+  <!-- {#each auth as auuth }
+    <h1>{auuth.name}</h1>
+  {/each} -->
     <!-- App Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/#">Task Manager</a>
